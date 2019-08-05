@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="changeIcon" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYC-4M-vqp">
+                                <rect key="frame" x="50" y="306" width="314" height="100"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Vmv-2a-RC8"/>
+                                </constraints>
+                                <state key="normal" title="ChangeIcon">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTouchButtonChangeIcon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XYS-rj-a64"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exY-Q9-SpN">
+                                <rect key="frame" x="50" y="506" width="314" height="100"/>
+                                <color key="backgroundColor" red="1" green="0.2666666667" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="rfe-GU-YPm"/>
+                                </constraints>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTouchButtonReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EEP-MO-G1z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NYC-4M-vqp" secondAttribute="trailing" constant="50" id="2dO-7M-ZB4"/>
+                            <constraint firstItem="NYC-4M-vqp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="262" id="5dZ-vr-z7n"/>
+                            <constraint firstItem="exY-Q9-SpN" firstAttribute="trailing" secondItem="NYC-4M-vqp" secondAttribute="trailing" id="6Iz-YD-xmg"/>
+                            <constraint firstItem="NYC-4M-vqp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Axo-Rr-Qvl"/>
+                            <constraint firstItem="exY-Q9-SpN" firstAttribute="top" secondItem="NYC-4M-vqp" secondAttribute="bottom" constant="100" id="Uc9-LF-AY2"/>
+                            <constraint firstItem="NYC-4M-vqp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tkW-yb-7mr"/>
+                            <constraint firstItem="exY-Q9-SpN" firstAttribute="leading" secondItem="NYC-4M-vqp" secondAttribute="leading" id="uMK-WQ-FhW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
