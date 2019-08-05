@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 
     @IBAction func didTouchButtonChangeIcon(_ sender: UIButton) {
         if UIApplication.shared.supportsAlternateIcons {
-            UIApplication.shared.setAlternateIconName("zyclogo") { (error) in
+            UIApplication.shared.setAlternateIconName("icon1") { (error) in
                 if error != nil {
                     print("更换icon 错误")
                 }

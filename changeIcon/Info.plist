@@ -45,33 +45,30 @@
 	<dict>
 		<key>CFBundleAlternateIcons</key>
 		<dict>
-			<key>zyclogo</key>
+			<key>icon1</key>
 			<dict>
-				<key>CFBundleIconFiles </key>
+				<key>CFBundleIconFiles</key>
 				<array>
-					<string>zyclogo</string>
+					<string>dark-20</string>
+					<string>dark-40</string>
+					<string>dark-29</string>
+					<string>dark-60</string>
 				</array>
+				<key>UIPrerenderedIcon</key>
+				<true/>
 			</dict>
-		</dict>
-		<key>CFBundlePrimaryIcon</key>
-		<dict>
-			<key>CFBundleIconFiles</key>
-			<array>
-				<string></string>
-			</array>
-			<key>UIPrerenderedIcon</key>
-			<false/>
-		</dict>
-		<key>UINewsstandIcon</key>
-		<dict>
-			<key>CFBundleIconFiles</key>
-			<array>
-				<string></string>
-			</array>
-			<key>UINewsstandBindingType</key>
-			<string>UINewsstandBindingTypeMagazine</string>
-			<key>UINewsstandBindingEdge</key>
-			<string>UINewsstandBindingEdgeLeft</string>
+			<key>icon2</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>star-29</string>
+					<string>star-20</string>
+					<string>star-40</string>
+					<string>star-60</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
 		</dict>
 	</dict>
 </dict>
